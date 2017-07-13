@@ -24,4 +24,12 @@ public class ArticleService {
     public Article getSpecificArticle(int id) {
         return articleMapper.getSpecificArticle(id);
     }
+
+    public void createArticle(Article article) {
+        articleMapper.createArticle(article);
+    }
+
+    public void updateArticle(Article article){
+        articleMapper.updateArticle(article);
+    }
 }
